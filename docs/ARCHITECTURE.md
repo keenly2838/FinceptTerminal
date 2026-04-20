@@ -192,7 +192,6 @@ Service (*Service.cpp)       ← Fetching, caching, processing
 - **`Result<T>`** for error handling instead of raw error codes or exceptions
 - **`LOG_INFO("tag", "msg")`** for structured logging
 - **`EventBus::instance().publish("event", data)`** for cross-module communication
-- **`AppConfig::instance().api_base_url()`** for constants — no magic strings
 
 ### Threading Model
 
